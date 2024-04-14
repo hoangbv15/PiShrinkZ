@@ -427,3 +427,5 @@ aftersize=$(ls -lh "$img" | cut -d ' ' -f 5)
 logVariables $LINENO aftersize
 
 info "Shrunk $img from $beforesize to $aftersize"
+info "Gzipping to further reduce size..."
+gzip -9 $img
