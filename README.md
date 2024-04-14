@@ -1,3 +1,5 @@
+# PiShrinkZ #
+This is a fork of PiShrink, which only adds gzip to the end so that the result becomes even smaller. 
 
 # PiShrink #
 
